@@ -51,8 +51,7 @@ function Read() {
                                 <th className='text-white bg-dark'>Name</th>
                                 <th className='text-white bg-dark'>Age</th>
                                 <th className='text-white bg-dark'>Email</th>
-                                <th className='text-white bg-dark'>Edit</th>
-                                <th className='text-white bg-dark'>Delete</th>
+                                <th colSpan={2} className='text-white bg-dark'>Crud Operations</th>
                             </tr>
                         </thead>
                         <tbody className='text-center'>
