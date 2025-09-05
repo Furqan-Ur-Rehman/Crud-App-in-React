@@ -19,7 +19,7 @@ function Create() {
         }).then(() => {
             Navigate('/');
         }).catch((error) => {
-            alert('Data has not Added!' + error);
+            alert('Data has not Added! ' + error);
         })
     }
     return (
